@@ -1,0 +1,353 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Slabo+27px&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+.banner1 {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url('bc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: initial;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    height: 40px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0989fa;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 1cm;
+}
+
+.lg {
+    color: #fff;
+    font-size: 30px;
+    margin-left: -580px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: yellow;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
+}
+
+.contant {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.contant h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.contant p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: 'Slabo 27px', serif;
+
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* main class */
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.banner2 {
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: initial;
+    column-count: 2;
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+.cnt1 {
+    margin-left: 85px;
+    padding-top: 50px;
+}
+
+.cnt1 h6 {
+    color: #626cb3;
+    font-size: 20px;
+    margin-left: 150px;
+    cursor: pointer;
+    margin-top: 40px;
+    position: absolute;
+}
+
+.h {
+    margin-top: 50px;
+}
+.cnt1 img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* footer  class */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    background-color: #24262b;
+    padding: 50px 70px;
+    height: auto;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-color: #0989fa;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #0989fa;
+    height: 3px;
+    box-sizing: border-box;
+    width: 110px;
+
+
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.add {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 90px;
+    cursor: pointer;
+
+
+}
+
+.add span {
+    color: #bbbbbb;
+    text-transform: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 6px;
+
+}
+
+input {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid #0989fa;
+    outline: none;
+    border-top-left-radius: 4px;
+    margin-right: 20px;
+    padding: 0 12px;
+    margin-top: 5px;
+
+
+}
+
+.sr {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid #0989fa;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    padding: 0 12px;
+
+}
+
+.mm{
+   
+    border: none;
+    border-bottom: 3px solid #0989fa;
+    border-top-left-radius: 4px;
+    padding-top: 5px;
+    padding-left: 12px;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 170px;
+    height: 40px;
+    background-color: #0989fa;;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 90px;
+    cursor: pointer;
+    text-transform: none;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.ion {
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    padding: 0px 4px;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.tc {
+    align-content: center;
+    color: #bbbbbb;
+    padding-left: 10cm;
+    padding-top: 2cm;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.gr {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'lato', sans-serif;
+
+
+}
+
+.logo {
+    width: 50px;
+    cursor: pointer;
+}
+
+hr {
+    border: 3mm solid yellow;
+}
+
+@media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+} 
